@@ -1,14 +1,14 @@
-.contacts {
+.contactList {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    gap: 16px;
 }
 
-.contact {
-    border: 1px solid grey;
-    border-radius: 3px;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.noContactsMessage {
+    text-align: center;
+    font-size: 24px;
+    color: #ff0000;
 }
